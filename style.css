@@ -1,15 +1,16 @@
-h1{
-    text-transform: uppercase;
-    font-size: 3rem;
-}
-.daisy-img{
-    border: 10px solid violet;
-    width: 100%;
-}
 body{
     background-color: black;
 }
-.Meme{
+h1{
+    font-size: 2rem;
+}
+.daisy-img{
+    border: 10px solid violet;
+    width: 80%;
+    
+}
+
+.poster{
     width: 50%;
     margin-left: 25%;
     margin-top: 100px;
@@ -17,3 +18,13 @@ body{
     font-family: "Libre Baskerville", serif;
     text-align: center;
 }
+
+@media (max-width: 680px) {
+    h1 {
+        font-size: 20px;
+    }
+}
+
+
+
+
